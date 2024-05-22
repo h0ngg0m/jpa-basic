@@ -34,5 +34,7 @@ em.remove(member); // 삭제
 - 1차 캐시: 조회한 엔티티를 1차 캐시에 저장하여 재사용, 동일한 트랜잭션 내에서만 유효하기 때문에 그렇게까지 큰 이점은 없다.
 - 동일성 보장: 1차 캐시로 반복 가능한 읽기(REPEATABLE READ) 등급의 트랜잭션 격리 수준을 데이터베이스가 아닌 애플리케이션 차원에서 제공
 - 트랜잭션을 지원하는 쓰기 지연
+<img width="953" alt="Screenshot 2024-05-22 at 2 19 37 PM" src="https://github.com/h0ngg0m/jpa-basic/assets/125632083/2c7794db-f5af-405c-8875-f109825ab73e">
+
 - 변경 감지(Dirty Checking)
 - 지연 로딩(Lazy Loading)
